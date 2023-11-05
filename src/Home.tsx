@@ -29,7 +29,7 @@ const Home = () => {
     });
 
     const generatedTweet = response.choices[0].message.content;
-    if(generatedTweet) {
+    if (generatedTweet) {
       setTweet(generatedTweet);
     }
     setShowInput(false);
